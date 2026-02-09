@@ -9,6 +9,56 @@ const artistName = document.querySelector(".music-player p");
 
 const songs = [
   {
+    title: "Lost Boy",
+    name: "Ruth B.",
+    source: "song-list/Ruth%20B.%20-%20Lost%20Boy%20(Lyrics).mp3",
+  },
+  {
+    title: "Dandelions",
+    name: "Ruth B.",
+    source: "song-list/Ruth%20B.%20-%20Dandelions%20(Lyrics).mp3",
+  },
+  {
+    title: "World's Smallest Violin",
+    name: "AJR",
+    source: "song-list/AJR%20-%20World%27s%20Smallest%20Violin%20(Lyrics).mp3",
+  },
+  {
+    title: "Mockingbird",
+    name: "Eminem",
+    source: "song-list/Eminem%20-%20Mockingbird%20(Lyrics).mp3",
+  },
+  {
+    title: "Cupid (Twin Version)",
+    name: "FIFTY FIFTY",
+    source: "song-list/FIFTY%20FIFTY%20-%20Cupid%20(Twin%20Version)%20(Lyrics).mp3",
+  },
+  {
+    title: "Golden Hour",
+    name: "JVKE ft. Ruel",
+    source: "song-list/JVKE%20-%20golden%20hour%20(Lyrics)%20ft.%20Ruel.mp3",
+  },
+  {
+    title: "7 Years",
+    name: "Lukas Graham",
+    source: "song-list/Lukas%20Graham%20-%207%20Years.mp3",
+  },
+  {
+    title: "Tonight",
+    name: "Moorty",
+    source: "song-list/Moorty%20-%20Tonight%20(Lyrics)%20%5B7clouds%20Release%5D.mp3",
+  },
+  {
+    title: "Demons",
+    name: "NIVIRO",
+    source: "song-list/NIVIRO%20-%20Demons%20%5BLyrics%5D.mp3",
+  },
+  {
+    title: "Sunroof",
+    name: "Nicky Youre, dazy",
+    source: "song-list/Nicky%20Youre%2C%20dazy%20-%20Sunroof%20(Lyrics).mp3",
+  },
+  {
     title: "Symphony",
     name: "Clean Bandit ft. Zara Larsson",
     source: "song-list/Clean-Bandit-Symphony.mp3",
@@ -33,7 +83,6 @@ const songs = [
     name: "Harry Styles",
     source: "song-list/Harry-Styles-As-It-Was.mp3",
   },
-
   {
     title: "Physical",
     name: "Dua Lipa",
@@ -44,12 +93,8 @@ const songs = [
     name: "Taylor Swift",
     source: "song-list/Taylor-Swift-Delicate.mp3",
   },
-  {
-    title: "Maya",
-    name: "Taylor Swift",
-    source: "song-list/Taylor-Swift-Delicate.mp3",
-  },
 ];
+
 
 let currentSongIndex = 3;
 
