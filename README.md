@@ -27,7 +27,7 @@
 
 ### Contact Me
 
-- Github - [@ecemgo](https://github.com/ecemgo)
-- Twitter - [@ecemgo](https://twitter.com/ecemgo)
-- CodePen - [@ecemgo](https://codepen.io/ecemgo)
-- YouTube - [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)
+- Github - [@AayusX](https://github.com/AayusX)
+- X.com - [@AayusX](https://x.com/AayushAa91941)
+- Linkedin - [@AayusX](https://www.linkedin.com/in/aayusx/)
+- YouTube - [@AayusX](https://www.youtube.com/@Cpcut-k3v/s)
