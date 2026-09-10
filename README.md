@@ -1,33 +1,52 @@
-## <img src="https://user-images.githubusercontent.com/13468728/233831804-0f5c7ee5-d654-4c13-9c77-a5bd6dc4fe74.jpg" title="great tricks" alt="great tricks" width="50" height="50"/> Music Player with Slider
+# Music Player
 
-#### The solutions with these tools:
+> A slick browser music player with a Swiper album-cover carousel — 17 bundled
+> tracks, smooth coverflow browsing, and a clickable song library.
 
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)&nbsp;
-![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
-![Swiper](https://img.shields.io/badge/swiper%20js-4287F5?style=for-the-badge&logo=swiper&logoColor=white)&nbsp;
+## Features
 
-### Link
+- 🎵 **17 bundled MP3 songs** — ready to play, no setup
+- 🎠 **Coverflow-style album carousel** (Swiper.js) with YouTube-link overlays
+- ⏯️ **Full controls** — play/pause, next/previous, seekable progress bar
+- 📚 **Clickable song library grid** — jump to any track instantly
+- 📱 **Responsive** layout
 
-- [Codepen](https://codepen.io/ecemgo/pen/vYPadZz)
+## Getting Started
 
-### Screenshot
+```bash
+cd music-player
+python3 -m http.server 8000
+# open http://localhost:8000
+```
 
-<div align="left">
-<img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/ff496b1e-87a7-4aa2-8bdc-5a85156282f4" title="music player with slider" alt="music player with slider" width="800" height="500"/>
-</div>
+Or simply open `index.html` in a browser — all assets are local or CDN-loaded.
 
-### Useful Resources
+## Tech Stack
 
-- [Swiper JS](https://swiperjs.com) - slider
+- **HTML5**, **CSS3**, **Vanilla JavaScript**
+- **Swiper.js** (CDN) for the carousel
+- **Font Awesome** + **Ionicons** for icons
 
-### License
+## Project Structure
 
-##### This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, share, and adapt this work for non-commercial purposes, provided you give appropriate credit. For more details, visit [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+```
+├── app.js           # player logic
+├── index.html       # entry point
+├── style.css        # styling
+├── images/          # album art + background
+└── song-list/       # 17 MP3 tracks
+```
 
-### Contact Me
+## License
 
-- Github - [@AayusX](https://github.com/AayusX)
-- X.com - [@AayusX](https://x.com/AayushAa91941)
-- Linkedin - [@AayusX](https://www.linkedin.com/in/aayusx/)
-- YouTube - [@AayusX](https://www.youtube.com/@Cpcut-k3v/s)
+This project is licensed under the **Creative Commons Attribution-NonCommercial
+4.0 International License**. You may use, share, and adapt this work for
+non-commercial purposes with attribution. See
+[Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/).
+
+## Contact
+
+- GitHub — [@AayusX](https://github.com/AayusX)
+- X — [@AayusX](https://x.com/AayushAa91941)
+- LinkedIn — [@AayusX](https://www.linkedin.com/in/aayusx/)
+- YouTube — [@AayusX](https://www.youtube.com/@Cpcut-k3v/s)
